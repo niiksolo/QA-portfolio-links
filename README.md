@@ -91,4 +91,4 @@ UI автоматизация с Selenium, Allure-отчёты и публика
 - **Telegram:** @n1ksolo 
 - **GitHub:** [niiksolo](https://github.com/niiksolo)  
 - **GitLab:** [niiksolo](https://gitlab.com/niiksolo)  
-- **LinkedIn:** 
+- **LinkedIn:** [LinkedIn](www.linkedin.com/in/никита-соловьев-1aa2a5377)
