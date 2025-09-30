@@ -61,6 +61,10 @@ UI автоматизация через Selenium и Docker. CI/CD: сборка
 Автоматизация API-тестов на Python + Pytest с отчётами Allure и CI/CD через Docker + GitHub Actions.  
 [Просмотр](https://github.com/niiksolo/api_automation_requests)
 
+### 🖥 automation-pom-tests
+UI автоматизация (smoke, integration, regression) через Selenium + POM. CI/CD с Docker и GitHub Actions, Allure-отчёты.    
+[Просмотр](https://github.com/niiksolo/automation-pom-tests)
+
 ### ⚡ performance-tests
 Нагрузочные тесты с помощью JMeter и k6 с автоматической публикацией результатов на GitHub Pages.  
 [Просмотр](https://github.com/niiksolo/performance-tests)
