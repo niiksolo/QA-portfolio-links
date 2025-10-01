@@ -8,7 +8,7 @@
 - 🖥️ **UI автоматизация:** Selenium, Python  
 - ⚡ **Performance-тесты:**  JMeter и k6
 - 🐳 **CI/CD:** GitHub Actions, GitLab CI, Docker  
-- 📊 **Отчётность:** HTML/CSV отчёты, Allure  
+- 📊 **Отчётность:** HTML, Allure  
 ---
 
 ## MANUAL
