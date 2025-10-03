@@ -62,7 +62,7 @@ UI автоматизация через Selenium и Docker. CI/CD: сборка
 [Просмотр](https://github.com/niiksolo/api_automation_requests)
 
 ### 🖥 automation-pom-tests
-UI автоматизация (smoke, integration, regression) через Selenium + POM. CI/CD с Docker и GitHub Actions, Allure-отчёты.    
+UI автоматизация маркетплейса [Kasta.ua](https://kasta.ua) (smoke, integration, regression) через Selenium + POM. CI/CD с Docker и GitHub Actions, Allure-отчёты.    
 [Просмотр](https://github.com/niiksolo/automation-pom-tests)
 
 ### ⚡ performance-tests
