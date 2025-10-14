@@ -4,9 +4,10 @@
 
 - 📝 **Manual Testing:** checklists, test cases, bug reports  
 - 🗄️ **SQL & Databases:** MySQL Workbench 
-- 🌐 **API Testing:** Postman, Requests, Newman  
-- 🖥️ **UI Automation:** Selenium, Python  
-- ⚡ **Performance Tests:** JMeter and k6  
+- 🌐 **API Testing:** Pytest, Postman, Requests, Newman  
+- 🖥️ **UI Automation:** Selenium, Python, Page Object Model
+- 🧪 **Types of testing:**  smoke, integration, regression
+- ⚡  **Performance Tests:** JMeter and k6  
 - 🐳 **CI/CD:** GitHub Actions, GitLab CI, Docker  
 - 📊 **Reporting:** HTML, Allure  
 ---
