@@ -96,4 +96,4 @@ API test automation with Allure reports and deployment via GitLab Pages. Full CI
 - **Telegram:** @n1ksolo  
 - **GitHub:** [niiksolo](https://github.com/niiksolo)  
 - **GitLab:** [niiksolo](https://gitlab.com/niiksolo)  
-- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/никита-соловьев-1aa2a5377)
+- **LinkedIn:** [LinkedIn](www.linkedin.com/in/nikita-solovyov-1aa2a5377)
