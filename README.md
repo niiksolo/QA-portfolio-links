@@ -3,6 +3,7 @@
 **QA Portfolio includes:**
 
 - 📝 **Manual Testing:** checklists, test cases, bug reports  
+- 📱 **Mobile Testing:** Android Studio emulator, Fiddler, BrowserStack  
 - 🗄️ **SQL & Databases:** MySQL Workbench 
 - 🌐 **API Testing:** Pytest, Postman, Requests, Newman  
 - 🖥️ **UI Automation:** Selenium, Python, Page Object Model
@@ -24,6 +25,14 @@ Projects include **screenshots** confirming testing.
   [View](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/ui_testing/checklists/README.md)
 - **ui_testing/test-cases/** – test cases for critical features  
   [View](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/ui_testing/test-cases/README.md)
+
+## MOBILE TESTING
+
+### 📱 rozetka-mobile-testing  
+Manual testing project focused on the **mobile version of Rozetka.ua**.  
+Includes **UI, API, cross-browser, viewport**, and **network condition tests**   
+Tested using **Android Studio emulator**, **Fiddler**, **BrowserStack**, and **Chrome DevTools**.  
+[View](https://github.com/niiksolo/rozetka-mobile-testing)
 
 ---
 
