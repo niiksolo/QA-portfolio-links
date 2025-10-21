@@ -1,108 +1,118 @@
-# 🧪 QA Portfolio – Nikita Solovyov
+# 🧪 QA Portfolio – Nikita Solovyov  
 
-**QA Portfolio includes:**
-
+**QA Portfolio includes:**  
 - 📝 **Manual Testing:** checklists, test cases, bug reports  
 - 📱 **Mobile Testing:** Android Studio emulator, Fiddler, BrowserStack  
-- 🗄️ **SQL & Databases:** MySQL Workbench 
+- 🗄️ **SQL & Databases:** MySQL, PostgreSQL  
 - 🌐 **API Testing:** Pytest, Postman, Requests, Newman  
-- 🖥️ **UI Automation:** Selenium, Python, Page Object Model
-- 🧪 **Types of testing:**  smoke, integration, regression
-- ⚡  **Performance Tests:** JMeter and k6  
+- 🖥️ **UI Automation:** Selenium, Python, Page Object Model (POM)  
+- 🧪 **Types of testing:** smoke, integration, regression  
+- ⚡ **Performance Testing:** JMeter, k6  
 - 🐳 **CI/CD:** GitHub Actions, GitLab CI, Docker  
 - 📊 **Reporting:** HTML, Allure  
----
-
-## MANUAL
-
-### 📝 Documentation — KS-Trans
-Documentation based on the real website [KS-Trans](https://ks-trans.org), showcasing skills in checklists, test cases, and bug reports.  
-Projects include **screenshots** confirming testing.
-
-- **bug-reports/** – bug reports based on discovered defects  
-  [View](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/bug-reports/README.md)
-- **ui_testing/checklists/** – checklists for site modules (header, slider, footer, booking, etc.)  
-  [View](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/ui_testing/checklists/README.md)
-- **ui_testing/test-cases/** – test cases for critical features  
-  [View](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/ui_testing/test-cases/README.md)
-
-## MOBILE TESTING
-
-### 📱 rozetka-mobile-testing  
-Manual testing project focused on the **mobile version of Rozetka.ua**.  
-Includes **UI, API, cross-browser, viewport**, and **network condition tests**   
-Tested using **Android Studio emulator**, **Fiddler**, **BrowserStack**, and **Chrome DevTools**.  
-[View](https://github.com/niiksolo/rozetka-mobile-testing)
 
 ---
 
-## API-SQL-TESTING (several projects in one folder)
+## 👨‍💻 MANUAL TESTING
 
-### 🧪 API Testing — FakeStoreAPI
-Training project demonstrating API testing with Postman and automated execution via Newman.  
+### KS-Trans
+Manual QA for [KS-Trans](https://ks-trans.org) website:  
+- 9 checklists, 30 test cases, 11 bug reports (duplicated in Jira)  
+- Screenshots and structured documentation for verification  
+[View Project](https://github.com/niiksolo/Manual-QA-Portfolio)  
+
+### Rozetka Mobile Testing
+Manual testing for mobile version of Rozetka.ua:  
+- 16 test cases, 4 checklists, 30+ screenshots  
+- UI, API, cross-browser, viewport, and network condition tests  
+- Tools: Android Studio emulator, Fiddler, BrowserStack, Chrome DevTools  
+[View Project](https://github.com/niiksolo/rozetka-mobile-testing)  
+
+---
+
+## 🌐 API & DATABASE TESTING
+
+### FakeStoreAPI
+- 30 automated API tests in Postman  
+- CI/CD execution via Newman with detailed reporting  
 [View](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/api-sql-testing/postman/README.md)
 
-### 📚 SQL Practice — Library DB
-Practical project for working with a library database (books, authors, readers, loans).  
-All queries were created and verified in **MySQL Workbench**.  
+### Library DB (SQL)
+- Built and tested database for books, readers, and loans  
+- Queries: SELECT, JOIN, GROUP BY, HAVING, INSERT, UPDATE, DELETE  
+- Ensured data integrity and correctness  
 [View](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/api-sql-testing/SQL-library/README.md)
 
-### 🐍 MySQL-API Project
-Mini-project demonstrating the QA workflow: API → Python → MySQL → reports in **HTML/CSV**.  
+### MySQL-API Project
+- Full QA workflow: CRUD operations via API → MySQL storage → CSV/HTML reports  
+- Demonstrates end-to-end API testing and database handling  
 [View](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/api-sql-testing/Mysql-api/README.md)
 
 ---
 
-## AUTOMATION – GitHub
+## 🖥 AUTOMATION – GitHub
 
-### 🐳 github-actions-docker-pipeline
-Automation of building, testing, and publishing Docker images using GitHub Actions.  
+### github-actions-docker-pipeline
+- FastAPI web service with PostgreSQL and CI/CD automation  
+- Unit, integration, smoke, and end-to-end tests  
+- Dockerized builds and branch-specific deployment  
 [View](https://github.com/niiksolo/github-actions-docker-pipeline)
 
-### 📝 postman-newman-api-tests
-Automated API testing using Postman + Newman + GitHub Actions.  
+### postman-newman-api-tests
+- Automated 26 API tests using Postman + Newman with full CRUD, authorization, and negative scenarios  
+- CI/CD pipeline on GitHub Actions runs tests automatically on push/PR, generating HTML reports published on GitHub Pages  
 [View](https://github.com/niiksolo/postman-newman-api-tests)
 
-### 🖥 ui-automation-selenium
-UI automation using Selenium and Docker. CI/CD: container build, test execution, Allure report generation, publishing on GitHub Pages.  
+### ui-automation-selenium
+- UI automation for login page using POM and parameterized tests  
+- Dockerized CI/CD: Selenium tests → Allure reports → GitHub Pages  
 [View](https://github.com/niiksolo/ui-automation-selenium)
 
-### 🐍 api_automation_requests
-API test automation in Python + Pytest with Allure reports and CI/CD using Docker + GitHub Actions.  
+### api_automation_requests
+- Full CRUD API testing implemented in Python + Requests  
+- POM used for structure, tests run in Docker, results in Allure, automated via GitHub Actions  
 [View](https://github.com/niiksolo/api_automation_requests)
 
-### 🖥 automation-pom-tests
-UI automation for [Kasta.ua](https://kasta.ua) marketplace (smoke, integration, regression) using Selenium + POM. CI/CD with Docker and GitHub Actions, Allure reports.  
+### automation-pom-tests
+- UI automation for [Kasta.ua](https://kasta.ua) marketplace  
+- Smoke, integration, regression tests using Selenium + POM  
+- CI/CD with Docker, Allure reports  
 [View](https://github.com/niiksolo/automation-pom-tests)
 
-### ⚡ performance-tests
-Load testing using JMeter and k6 with automatic result publishing on GitHub Pages.  
+### performance-tests
+- Load and stress testing scripts for web services  
+- Automated result collection and publishing to GitHub Pages  
 [View](https://github.com/niiksolo/performance-tests)
 
-### 🎓 automation_tests_practice
-Repository with examples of automated tests created during training (various tools and approaches).  
+### automation_tests_practice
+- Repository with examples of automated tests created during training  
 [View](https://github.com/niiksolo/automation_tests_practice)
 
 ---
 
-## AUTOMATION – GitLab
+## 🖥 AUTOMATION – GitLab
 
-### 🐍 Python CI/CD Project
-CI/CD automation for a Python application with tests (unit, integration, smoke, e2e) using GitLab CI.  
+### Python CI/CD Project
+- CI/CD for Python application with branch-specific test execution  
+- Automated unit, integration, smoke, and end-to-end tests  
 [View](https://gitlab.com/niiksolo/my-project)
 
-### 🖥 Selenium Tests Project
-UI automation using Selenium, Allure reports, and publishing via GitLab Pages. Full CI/CD pipeline with Docker.  
+### Selenium Tests Project
+- Selenium UI automation suite covering CRUD operations using POM  
+- Dockerized CI/CD: build → test → Allure report → GitLab Pages  
+- Step-by-step Allure reports for easy analysis  
 [View](https://gitlab.com/niiksolo/ci-cd)
 
-### 🐍 My API Project
-API test automation with Allure reports and deployment via GitLab Pages. Full CI/CD pipeline.  
+### My API Project
+- API automation with Pytest, CRUD operations, and parameterized scenarios  
+- CI/CD with Docker, Allure reports, and GitLab Pages publishing  
 [View](https://gitlab.com/niiksolo/api-ci)
 
+---
 
 ## 📫 Contacts
 - **Email:** solo.mykyta@gmail.com  
-- **Telegram:** @n1ksolo  
+- **Telegram:** [@n1ksolo](https://t.me/n1ksolo)  
 - **GitHub:** [niiksolo](https://github.com/niiksolo)  
 - **GitLab:** [niiksolo](https://gitlab.com/niiksolo)  
 - **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/nikita-solovyov-1aa2a5377)
