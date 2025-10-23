@@ -15,9 +15,9 @@
 
 ## 👨‍💻 MANUAL TESTING
 
-### 1️⃣ KS-Trans QA documentation
-Comprehensive QA documentation for the [KS-Trans](https://ks-trans.org) website, ensuring full functional coverage and quality assurance:  
-- 9 checklists, 30 test cases, 11 bug reports (duplicated in Jira)  
+### 1️⃣ QA Documentation – Multiple Projects  
+Comprehensive QA documentation for various real websites, ensuring full functional coverage and quality assurance:  
+- 11 checklists, 50+ test cases, 20+ bug reports (also duplicated in Jira)  
 - Screenshots and structured documentation for verification  
 [View Project](https://github.com/niiksolo/Manual-QA-Portfolio)  
 
