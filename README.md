@@ -7,7 +7,7 @@
 - 🌐 **API Testing:** Pytest, Postman, Requests, Newman  
 - 🖥️ **UI Automation:** Figma, CMS WordPress, Selenium, Python, POM  
 - 🧪 **Types of testing:** smoke, integration, regression  
-- ⚡ **Performance Testing:** JMeter, k6  
+- ⚡ **Performance/Security Testing:** JMeter, k6, OWASP ZAP   
 - 🐳 **CI/CD:** GitHub Actions, GitLab CI, Docker  
 - 📊 **Reporting:** HTML, Allure  
 
@@ -88,7 +88,12 @@ Manual testing for mobile version of [Rozetka](https://rozetka.com.ua):
 - Automated result collection and publishing to GitHub Pages  
 [View Project](https://github.com/niiksolo/performance-tests)
 
-### 1️⃣3️⃣ automation_tests_practice
+### 1️⃣3️⃣ security-owasp-zap
+- Automated security scanning of **OWASP Juice Shop** using **OWASP ZAP** (baseline scan)  
+- CI/CD with GitHub Actions; HTML report generated and saved as workflow artifact  
+[View Project](https://github.com/niiksolo/security-owasp-zap)
+
+### 1️⃣4️⃣ automation_tests_practice
 - Repository with examples of automated tests created during training  
 [View Project](https://github.com/niiksolo/automation_tests_practice)
 
@@ -96,18 +101,18 @@ Manual testing for mobile version of [Rozetka](https://rozetka.com.ua):
 
 ## 🖥 AUTOMATION – GitLab
 
-### 1️⃣4️⃣ Python CI/CD Project
+### 1️⃣5️⃣ Python CI/CD Project
 - CI/CD for Python application with branch-specific test execution  
 - Automated unit, integration, smoke, and end-to-end tests  
 [View Project](https://gitlab.com/niiksolo/my-project)
 
-### 1️⃣5️⃣ Selenium Tests Project
+### 1️⃣6️⃣  Selenium Tests Project
 - Selenium UI automation suite covering CRUD operations using POM  
 - Dockerized CI/CD: build → test → Allure report → GitLab Pages  
 - Step-by-step Allure reports for easy analysis  
 [View Project](https://gitlab.com/niiksolo/ci-cd)
 
-### 1️⃣6️⃣ My API Project
+### 1️⃣7️⃣ My API Project
 - API automation with Pytest, CRUD operations, and parameterized scenarios  
 - CI/CD with Docker, Allure reports, and GitLab Pages publishing  
 [View Project](https://gitlab.com/niiksolo/api-ci)
