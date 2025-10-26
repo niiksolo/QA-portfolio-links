@@ -5,7 +5,7 @@
 - 📱 **Mobile Testing:** Android Studio emulator, Fiddler, BrowserStack  
 - 🗄️ **SQL & Databases:** MySQL, PostgreSQL  
 - 🌐 **API Testing:** Pytest, Postman, Requests, Newman  
-- 🖥️ **UI Automation:** Selenium, Python, Page Object Model (POM)  
+- 🖥️ **UI Automation:** Figma, CMS WordPress, Selenium, Python, POM  
 - 🧪 **Types of testing:** smoke, integration, regression  
 - ⚡ **Performance Testing:** JMeter, k6  
 - 🐳 **CI/CD:** GitHub Actions, GitLab CI, Docker  
