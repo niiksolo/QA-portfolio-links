@@ -21,8 +21,8 @@ Comprehensive QA documentation for various real websites, ensuring full function
 - Screenshots and structured documentation for verification  
 [View Project](https://github.com/niiksolo/Manual-QA-Portfolio)  
 
-### 2️⃣ ️WordPress CMS Site Testing
-Practical QA project on a locally set up **WordPress** site, covering **UI, functionality, API, and database** tests with test cases, checklist, and screenshots.  
+### 2️⃣ WordPress CMS Site Testing
+Practical QA project on a locally set up **WordPress** site, covering **UI, functionality, API, and database** tests.  
 [View Project](https://github.com/niiksolo/cms-wordpress-site-test)
 
 ### 3️⃣ Rozetka Mobile Testing
@@ -32,89 +32,79 @@ Manual testing for mobile version of [Rozetka](https://rozetka.com.ua):
 - Tools: Android Studio emulator, Fiddler, BrowserStack, Chrome DevTools  
 [View Project](https://github.com/niiksolo/rozetka-mobile-testing)  
 
+### 4️⃣ Android Log Analysis  
+Collected and analyzed logs from Android app `StrimQA` using adb logcat and Python script.  
+Filtered errors/warnings and generated reports in TXT/CSV/JSON.  
+[View Project](https://github.com/niiksolo/mobile-qa-logs)
+
 ---
 
 ## 🌐 API & DATABASE TESTING
 
-### 4️⃣ FakeStoreAPI (Postman+Newman)
+### 5️⃣ FakeStoreAPI (Postman+Newman)
 - 30 automated API tests in Postman  
 - CI/CD execution via Newman with detailed reporting  
 [View Project](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/api-sql-testing/postman/README.md)
 
-### 5️⃣ Library DB (MySQL Workbench)
+### 6️⃣ Library DB (MySQL Workbench)
 - Built and tested database for books, readers, and loans  
 - Queries: SELECT, JOIN, GROUP BY, HAVING, INSERT, UPDATE, DELETE  
-- Ensured data integrity and correctness  
 [View Project](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/api-sql-testing/SQL-library/README.md)
 
-### 6️⃣ MySQL-API Project (API → MySQL)
+### 7️⃣ MySQL-API Project (API → MySQL)
 - Full QA workflow: CRUD operations via API → MySQL storage → CSV/HTML reports  
-- Demonstrates end-to-end API testing and database handling  
 [View Project](https://github.com/niiksolo/Manual-QA-Portfolio/blob/main/api-sql-testing/Mysql-api/README.md)
 
 ---
 
 ## 🖥 AUTOMATION – GitHub
 
-### 7️⃣ github-actions-docker-pipeline
+### 8️⃣ github-actions-docker-pipeline
 - FastAPI web service with PostgreSQL and CI/CD automation  
-- Unit, integration, smoke, and end-to-end tests  
-- Dockerized builds and branch-specific deployment  
 [View Project](https://github.com/niiksolo/github-actions-docker-pipeline)
 
-### 8️⃣ postman-newman-api-tests
-- Automated 26 API tests using Postman + Newman with full CRUD, authorization, and negative scenarios  
-- CI/CD pipeline on GitHub Actions runs tests automatically on push/PR, generating HTML reports published on GitHub Pages  
+### 9️⃣ postman-newman-api-tests
+- Automated 26 API tests using Postman + Newman  
 [View Project](https://github.com/niiksolo/postman-newman-api-tests)
 
-### 9️⃣ ui-automation-selenium
+### 🔟 ui-automation-selenium
 - UI automation for login page using POM and parameterized tests  
-- Dockerized CI/CD: Selenium tests → Allure reports → GitHub Pages  
 [View Project](https://github.com/niiksolo/ui-automation-selenium)
 
-### 🔟 api_automation_requests
-- Full CRUD API testing implemented in Python + Requests  
-- POM used for structure, tests run in Docker, results in Allure, automated via GitHub Actions  
+### 1️⃣1️⃣ api_automation_requests
+- Full CRUD API testing in Python + Requests  
 [View Project](https://github.com/niiksolo/api_automation_requests)
 
-### 1️⃣1️⃣ automation-pom-tests
+### 1️⃣2️⃣ automation-pom-tests
 - UI automation for [Kasta.ua](https://kasta.ua) marketplace  
-- Smoke, integration, regression tests using Selenium + POM  
-- CI/CD with Docker, Allure reports  
 [View Project](https://github.com/niiksolo/automation-pom-tests)
 
-### 1️⃣2️⃣ performance-tests
+### 1️⃣3️⃣ performance-tests
 - Load and stress testing scripts for web services  
-- Automated result collection and publishing to GitHub Pages  
 [View Project](https://github.com/niiksolo/performance-tests)
 
-### 1️⃣3️⃣ security-owasp-zap
-- Automated security scanning of **OWASP Juice Shop** using **OWASP ZAP** (baseline scan)  
-- CI/CD with GitHub Actions; HTML report generated and saved as workflow artifact  
+### 1️⃣4️⃣ security-owasp-zap
+- Automated security scanning of **OWASP Juice Shop**  
 [View Project](https://github.com/niiksolo/security-owasp-zap)
 
-### 1️⃣4️⃣ automation_tests_practice
-- Repository with examples of automated tests created during training  
+### 1️⃣5️⃣ automation_tests_practice
+- Examples of automated tests from training  
 [View Project](https://github.com/niiksolo/automation_tests_practice)
 
 ---
 
 ## 🖥 AUTOMATION – GitLab
 
-### 1️⃣5️⃣ Python CI/CD Project
+### 1️⃣6️⃣ Python CI/CD Project
 - CI/CD for Python application with branch-specific test execution  
-- Automated unit, integration, smoke, and end-to-end tests  
 [View Project](https://gitlab.com/niiksolo/my-project)
 
-### 1️⃣6️⃣  Selenium Tests Project
-- Selenium UI automation suite covering CRUD operations using POM  
-- Dockerized CI/CD: build → test → Allure report → GitLab Pages  
-- Step-by-step Allure reports for easy analysis  
+### 1️⃣7️⃣ Selenium Tests Project
+- Selenium UI automation suite with POM  
 [View Project](https://gitlab.com/niiksolo/ci-cd)
 
-### 1️⃣7️⃣ My API Project
-- API automation with Pytest, CRUD operations, and parameterized scenarios  
-- CI/CD with Docker, Allure reports, and GitLab Pages publishing  
+### 1️⃣8️⃣ My API Project
+- API automation with Pytest, CRUD operations  
 [View Project](https://gitlab.com/niiksolo/api-ci)
 
 ---
