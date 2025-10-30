@@ -6,7 +6,7 @@
 - 🗄️ **SQL & Databases:** MySQL, PostgreSQL  
 - 🌐 **API Testing:** Pytest, Postman, Requests, Newman  
 - 🖥️ **UI Automation:** Figma, CMS WordPress, Selenium, Python, POM  
-- 🧪 **Types of testing:** smoke, integration, regression  
+- 🧪 **Types of testing:** smoke, unit, integration, regression, e2e  
 - ⚡ **Performance/Security Testing:** JMeter, k6, OWASP ZAP   
 - 🐳 **CI/CD:** GitHub Actions, GitLab CI, Docker  
 - 📊 **Reporting:** HTML, Allure  
@@ -17,7 +17,7 @@
 
 ### 1️⃣ QA Documentation – Multiple Projects  
 Comprehensive QA documentation for various real websites, ensuring full functional coverage and quality assurance:  
-- 12 checklists, 55+ test cases, 20+ bug reports (also duplicated in Jira)  
+- 14+ checklists, 50+ test cases, 30+ bug reports (also duplicated in Jira)  
 - Screenshots and structured documentation for verification  
 [View Project](https://github.com/niiksolo/Manual-QA-Portfolio)  
 
