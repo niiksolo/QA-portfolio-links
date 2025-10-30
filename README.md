@@ -3,7 +3,7 @@
 **QA Portfolio includes:**  
 - 📝 **Manual Testing:** checklists, test cases, bug reports  
 - 📱 **Mobile Testing:** Android Studio emulator, Fiddler, BrowserStack  
-- 🗄️ **SQL & Databases:** MySQL, PostgreSQL  
+- 🗄️ **SQL & Databases:** MySQL Workbench, PostgreSQL  
 - 🌐 **API Testing:** Pytest, Postman, Requests, Newman  
 - 🖥️ **UI Automation:** Figma, CMS WordPress, Selenium, Python, POM  
 - 🧪 **Types of testing:** smoke, unit, integration, regression, e2e  
